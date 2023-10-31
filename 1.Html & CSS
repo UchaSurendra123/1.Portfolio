@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    .about-me {
+      float: left;
+      width: 50%;
+    }
+
+    .accomplishments {
+      float: right;
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+
+  <main>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>I am a software engineer with 5+ years of experience. I have a passion for building web applications and I am always looking for new challenges.</p>
+    </div>
+
+    <div class="accomplishments">
+      <h2>Accomplishments</h2>
+      <ul>
+        <li>Developed a web application that is used by over 100,000 users daily.</li>
+        <li>Led a team of engineers in the development of a new product that generated $1 million in revenue in its first year.</li>
+        <li>Received the company's "Employee of the Year" award in 2022.</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
